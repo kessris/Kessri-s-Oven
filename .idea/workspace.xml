@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0efa899-4407-474b-aa56-18686413ec7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/directory/directory.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574522717497</updated>
-      <workItem from="1574522719522" duration="7635000" />
+      <workItem from="1574522719522" duration="10265000" />
     </task>
     <servers />
   </component>
