@@ -1,6 +1,6 @@
 import React from 'react';
-import MenuItem from "../menu-item/menu-item.component";
-import './directory.styles.scss'
+import MenuItem from "../directory-preview/directory-preview.component";
+import './homepage-directory.styles.scss'
 
 class Directory extends React.Component {
     constructor() {
@@ -29,20 +29,20 @@ class Directory extends React.Component {
                     linkUrl: 'q&a'
                 },
                 {
-                    title: 'Traditional Desserts',
+                    title: `This Month's Sales`,
                     subtitle: 'Order Now',
                     imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTYyYUjzAuDMEEXskBPXdHePhQPYJmwD5z9KHBzRoxvb6G3iRvc',
                     id: 4,
                     size: 'large',
-                    linkUrl: 'traditional-desserts'
+                    linkUrl: 'this-months-sales'
                 },
                 {
-                    title: 'Baked Desserts',
+                    title: 'Bulk Orders',
                     subtitle: 'Order Now',
                     imageUrl: 'https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/bakeryandsnacks.com/trends/convenience/clean-fusion-throughout-the-day-dawn-releases-2020-food-trends-at-ibie/10154048-3-eng-GB/Clean-fusion-throughout-the-day-Dawn-releases-2020-food-trends-at-IBIE_wrbm_large.jpg',
                     id: 5,
                     size: 'large',
-                    linkUrl: 'baked-desserts'
+                    linkUrl: 'bulk-orders'
                 },
             ]
         };

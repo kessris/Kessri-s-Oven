@@ -1,4 +1,9 @@
 body {
-    font-family: 'Alata';
+    font-family: 'Baskerville Old Face';
     padding: 20px 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
