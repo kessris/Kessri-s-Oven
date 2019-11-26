@@ -5,6 +5,7 @@ import HomePage from "./pages/homepage/homepage.component";
 import Gallery from "./pages/gallery/gallery.component";
 import Header from "./components/header/header.component";
 import BulkOrders from "./pages/bulk-orders/bulk-orders.component";
+import SignInSignUpPage from "./pages/sign-in-sign-up/sign-in-sign-up.component";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                 <Route exact path='/' component={HomePage}/>
                 <Route path='/gallery' component={Gallery}/>
                 <Route path='/bulk-orders' component={BulkOrders}/>
+                <Route path='/sign-in' component={SignInSignUpPage}/>
             </Switch>
         </div>
     );
