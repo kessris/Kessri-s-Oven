@@ -6,7 +6,7 @@ import Gallery from "./pages/gallery/gallery.component";
 import Header from "./components/header/header.component";
 import BulkOrders from "./pages/bulk-orders/bulk-orders.component";
 import SignInSignUpPage from "./pages/sign-in-sign-up/sign-in-sign-up.component";
-import {auth} from "./firebase/firebase.utils";
+import {auth, createUserProfileDocument} from "./firebase/firebase.utils";
 
 
 class App extends React.Component {
@@ -22,9 +22,11 @@ class App extends React.Component {
     componentDidMount() {
         // onAuthStateChanged() : method from auth library from Firebase
         // auth.onAuthStateChanged(..) returns a function that closes the subscription
-        this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
+        // 'async' b/c will be making an async API requests
+        this.unsubscribeFromAuth = auth.onAuthStateChanged(async user => {
+            createUserProfileDocument(user);
             this.setState({ currentUser: user });
-            console.log(user);
+            //console.log(user);
         })
     }
 

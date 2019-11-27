@@ -17,7 +17,7 @@ class Directory extends React.Component {
                 },
                 {
                     title: 'Bulk Orders',
-                    subtitle: 'Order Now',
+                    subtitle: 'Inquire',
                     imageUrl: 'https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/bakeryandsnacks.com/trends/convenience/clean-fusion-throughout-the-day-dawn-releases-2020-food-trends-at-ibie/10154048-3-eng-GB/Clean-fusion-throughout-the-day-Dawn-releases-2020-food-trends-at-IBIE_wrbm_large.jpg',
                     id: 2,
                     size: 'large',
