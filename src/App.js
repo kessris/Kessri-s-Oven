@@ -22,11 +22,22 @@ class App extends React.Component {
     componentDidMount() {
         // onAuthStateChanged() : method from auth library from Firebase
         // auth.onAuthStateChanged(..) returns a function that closes the subscription
-        // 'async' b/c will be making an async API requests
-        this.unsubscribeFromAuth = auth.onAuthStateChanged(async user => {
-            createUserProfileDocument(user);
-            this.setState({ currentUser: user });
-            //console.log(user);
+        // It is 'async' b/c will be making an async API requests
+        this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
+            if (userAuth) {
+                const userRef = await createUserProfileDocument(userAuth);
+                // documentSnapshot object allows us to check if a doc exists (using '.exists' property)
+                // or get actual properties on object by calling .data() method which returns a JSON object of the document.
+                userRef.onSnapshot(snapshot => {
+                    this.setState({
+                        currentUser: {
+                            id: snapshot.id,
+                            ...snapshot.data()
+                        }
+                    })
+                })
+            } else
+                this.setState({ currentUser: userAuth}); // equivalent to setting currentUser to null
         })
     }
 
