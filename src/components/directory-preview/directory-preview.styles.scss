@@ -22,8 +22,13 @@
     }
   }
 
-  &.large {
+  &.very-large {
     height: 380px;
+    width: 100%;
+  }
+
+  &.large {
+    width: 39%;
   }
 
   &:first-child {
