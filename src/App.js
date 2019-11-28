@@ -7,19 +7,17 @@ import Header from "./components/header/header.component";
 import BulkOrders from "./pages/bulk-orders/bulk-orders.component";
 import SignInSignUpPage from "./pages/sign-in-sign-up/sign-in-sign-up.component";
 import {auth, createUserProfileDocument} from "./firebase/firebase.utils";
+import {connect} from 'react-redux';
+import {setCurrentUser} from "./redux/user/user.actions";
 
 
 class App extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            currentUser: null
-        }
-    }
 
     unsubscribeFromAuth = null;
 
     componentDidMount() {
+        const {setCurrentUser} = this.props;
+
         // onAuthStateChanged() : method from auth library from Firebase
         // auth.onAuthStateChanged(..) returns a function that closes the subscription
         // It is 'async' b/c will be making an async API requests
@@ -29,15 +27,14 @@ class App extends React.Component {
                 // documentSnapshot object allows us to check if a doc exists (using '.exists' property)
                 // or get actual properties on object by calling .data() method which returns a JSON object of the document.
                 userRef.onSnapshot(snapshot => {
-                    this.setState({
-                        currentUser: {
-                            id: snapshot.id,
-                            ...snapshot.data()
-                        }
-                    })
+                    setCurrentUser({
+                        id: snapshot.id,
+                        ...snapshot.data()
+                    });
                 })
             } else
-                this.setState({ currentUser: userAuth}); // equivalent to setting currentUser to null
+                // code below was PREV: this.setState({ currentUser: userAuth});
+                setCurrentUser(userAuth); // equivalent to setting currentUser to null
         })
     }
 
@@ -51,7 +48,7 @@ class App extends React.Component {
         // Switch: the moment it finds a Route with an exact path, will not render any other Routes
         return (
             <div>
-                <Header currentUser={this.state.currentUser}/>
+                <Header/>
                 <Switch>
                     <Route exact path='/' component={HomePage}/>
                     <Route path='/gallery' component={Gallery}/>
@@ -64,4 +61,13 @@ class App extends React.Component {
 
 }
 
-export default App;
+/**
+ * @function mapDispatchToProps: write over a state in redux store
+ * @param dispatch: accepts any action objects from redux as parameter
+ * @returns function that is equivalent to this.setState({...}) that will get passed down as props to a component
+ */
+const mapDispatchToProps = dispatch => ({
+    setCurrentUser: user => dispatch(setCurrentUser(user))
+});
+
+export default connect(null, mapDispatchToProps)(App);
