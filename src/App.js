@@ -5,6 +5,7 @@ import HomePage from "./pages/homepage/homepage.component";
 import Gallery from "./pages/gallery/gallery.component";
 import Header from "./components/header/header.component";
 import BulkOrders from "./pages/bulk-orders/bulk-orders.component";
+import ThisMonthsSales from "./pages/this-months-sales/this-months-sales.component";
 import SignInSignUpPage from "./pages/sign-in-sign-up/sign-in-sign-up.component";
 import {auth, createUserProfileDocument} from "./firebase/firebase.utils";
 import {connect} from 'react-redux';
@@ -51,6 +52,7 @@ class App extends React.Component {
                 <Header/>
                 <Switch>
                     <Route exact path='/' component={HomePage}/>
+                    <Route path='/this-months-sales' component={ThisMonthsSales}/>
                     <Route path='/gallery' component={Gallery}/>
                     <Route path='/bulk-orders' component={BulkOrders}/>
                     <Route exact path='/sign-in' render={() =>
