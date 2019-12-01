@@ -2,24 +2,67 @@ import React from 'react';
 import CustomButton from "../custom-button/custom-button.component";
 import {connect} from 'react-redux'
 import {addItem} from "../../redux/cart/cart.actions";
+import Modal from 'react-modal';
 
 import './collection-item.styles.scss';
 
-const CollectionItem = ({ item, addItem }) => {
-    const {name, price, imageUrl} = item;
+Modal.setAppElement(document.getElementById('root'));
 
-    return (
-        <div className='collection-item'>
-            <div className='image' style={{ backgroundImage: `url(${imageUrl})` }}/>
+class CollectionItem extends React.Component {
 
-            <div className='collection-footer'>
-                <span className='name'>{name}</span>
-                <span className='price'>{price}</span>
-            </div>
-            <CustomButton inverted onClick={() => addItem(item)}>Add to cart</CustomButton>
-        </div>
-    );
-};
+    constructor() {
+        super();
+        this.state = {
+            modalIsOpen: false
+        }
+    }
+
+    openModal = () => {
+        this.setState({modalIsOpen: true});
+    };
+
+    afterOpenModal = () => {
+        // references are now sync'd and can be accessed.
+        //this.subtitle.style.color = '#f00';
+    };
+
+    closeModal = () => {
+        this.setState({modalIsOpen: false});
+    };
+
+    render() {
+        const {item, addItem} = this.props;
+        const {name, price, imageUrl} = item;
+
+        return (
+                <div className='collection-item'>
+                    <div className='image' style={{ backgroundImage: `url(${imageUrl})` }}/>
+
+                    <div className='collection-footer'>
+                        <span className='name'>{name}</span>
+                        <span className='price'>{price}</span>
+                    </div>
+
+                    <CustomButton inverted onClick={this.openModal}>View Detail</CustomButton>
+
+                    <Modal
+                        isOpen={this.state.modalIsOpen}
+                        onAfterOpen={this.afterOpenModal}
+                        onRequestClose={this.closeModal}
+                        portalClassName='Modal'
+                        className='Modal'
+                    >
+                        MODAL IS OPEN
+                        <CustomButton inverted onClick={() => addItem(item)}>Add to cart</CustomButton>
+                    </Modal>
+
+                </div>
+        )
+    }
+
+
+
+}
 
 const mapDispatchToProps = dispatch => ({
     addItem: item => dispatch(addItem(item))
