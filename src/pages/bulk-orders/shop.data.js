@@ -9,7 +9,7 @@ const SHOP_DATA = [
             {
                 id: 1,
                 name: 'Yangang',
-                imageUrl: 'https://i.pinimg.com/564x/eb/35/41/eb3541e68c826aad9d7f16073766cf65.jpg',
+                imageUrl: 'https://photos.app.goo.gl/q9maXfzE3bBu3xmv6',
                 //imageUrl: "/images/gallery-img/hats/brown-brim.png",
                 price: 25
             },

@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0efa899-4407-474b-aa56-18686413ec7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user.selectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/bulk-orders/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/bulk-orders/shop.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574522717497</updated>
       <workItem from="1574522719522" duration="11146000" />
-      <workItem from="1574695577408" duration="69718000" />
+      <workItem from="1574695577408" duration="73221000" />
     </task>
     <servers />
   </component>
