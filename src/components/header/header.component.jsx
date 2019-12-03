@@ -5,6 +5,10 @@ import { connect } from 'react-redux'; // HOC that allows access to redux stuff
 import { ReactComponent as Logo } from '../../assets/mainLogo.svg';
 import CartIcon from "../cart-icon/cart-icon.component";
 import CartDropdown from "../cart-dropdown/cart-dropdown.component";
+import {createStructuredSelector} from "reselect";
+import {selectCartHidden} from "../../redux/cart/cart.selectors";
+import {selectCurrentUser} from "../../redux/user/user.selectors";
+
 import './header.styles.scss';
 
 const Header = ({currentUser, hidden}) => (
@@ -49,8 +53,9 @@ const Header = ({currentUser, hidden}) => (
  * @param state: root reducer object. i.e., 'combineReducers' obj from 'root-reducer.js'
  * @returns an object as props that gets deconstructed
  */
-const mapStateToProps = ({user: {currentUser}, cart: {hidden}}) => ({
-    currentUser, hidden
+const mapStateToProps = createStructuredSelector({
+    currentUser: selectCurrentUser,
+    hidden: selectCartHidden
 });
 
 // connect: HOC that allows access to redux stuff

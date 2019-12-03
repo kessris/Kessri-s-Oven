@@ -3,34 +3,34 @@
 const SHOP_DATA = [
     {
         id: 1,
-        title: 'Hats',
+        title: 'Traditional Desserts',
         routeName: 'hats',
         items: [
             {
                 id: 1,
-                name: 'Brown Brim',
-                imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+                name: 'Yangang',
+                imageUrl: 'https://i.pinimg.com/564x/eb/35/41/eb3541e68c826aad9d7f16073766cf65.jpg',
                 //imageUrl: "/images/gallery-img/hats/brown-brim.png",
                 price: 25
             },
             {
                 id: 2,
-                name: 'Blue Beanie',
-                 imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+                name: 'Yakgwa',
+                 imageUrl: 'https://i.pinimg.com/564x/eb/35/41/eb3541e68c826aad9d7f16073766cf65.jpg',
                 //imageUrl: "/images/gallery-img/hats/blue-beanie.png",
                 price: 18
             },
             {
                 id: 3,
-                name: 'Brown Cowboy',
-                imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+                name: 'Rice Cake',
+                imageUrl: 'https://i.pinimg.com/564x/eb/35/41/eb3541e68c826aad9d7f16073766cf65.jpg',
                 //imageUrl: "/images/gallery-img/hats/brown-cowboy.png",
                 price: 35
             },
             {
                 id: 4,
-                name: 'Grey Brim',
-                 imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+                name: 'Something',
+                 imageUrl: 'https://i.pinimg.com/564x/eb/35/41/eb3541e68c826aad9d7f16073766cf65.jpg',
                 //imageUrl: "/images/gallery-img/hats/grey-brim.png",
                 price: 25
             },
@@ -73,7 +73,7 @@ const SHOP_DATA = [
     },
     {
         id: 2,
-        title: 'Sneakers',
+        title: 'Macarons',
         routeName: 'sneakers',
         items: [
             {
