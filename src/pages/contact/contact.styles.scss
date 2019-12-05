@@ -1,0 +1,27 @@
+.contact-page {
+  padding: 20px;
+  text-align: center;
+  height: 500px;
+
+  .title {
+    font-size: 38px;
+    margin: 0 auto 30px;
+  }
+
+  .contact-info {
+    width: 50%;
+    margin: 30px auto;
+    display: inline-block;
+
+    img {
+      width: 40%;
+      border: 2px solid black;
+      float: left;
+    }
+
+    .info {
+      transform: translateY(7vw);
+    }
+  }
+
+}

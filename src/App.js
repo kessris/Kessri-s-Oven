@@ -7,6 +7,7 @@ import Header from "./components/header/header.component";
 import BulkOrders from "./pages/bulk-orders/bulk-orders.component";
 import CheckoutPage from "./pages/checkout/checkout.component";
 import ThisMonthsSales from "./pages/this-months-sales/this-months-sales.component";
+import QnA from "./pages/q&a/q&a.component";
 import SignInSignUpPage from "./pages/sign-in-sign-up/sign-in-sign-up.component";
 import {auth, createUserProfileDocument} from "./firebase/firebase.utils";
 import {connect} from 'react-redux';
@@ -14,6 +15,7 @@ import {setCurrentUser} from "./redux/user/user.actions";
 import {selectCurrentUser} from "./redux/user/user.selectors";
 import {createStructuredSelector} from "reselect";
 import HowToOrder from "./pages/how-to-order/how-to-order.component";
+import Contact from "./pages/contact/contact.component";
 
 
 class App extends React.Component {
@@ -61,6 +63,8 @@ class App extends React.Component {
                     <Route path='/bulk-orders' component={BulkOrders}/>
                     <Route exact path='/checkout' component={CheckoutPage}/>
                     <Route exact path='/how-to-order' component={HowToOrder}/>
+                    <Route exact path='/q&a' component={QnA}/>
+                    <Route exact path='/contact' component={Contact}/>
                     <Route exact path='/sign-in' render={() =>
                         this.props.currentUser? <Redirect to='/'/> : <SignInSignUpPage/> }/>
                 </Switch>
