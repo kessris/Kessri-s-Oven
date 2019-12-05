@@ -9,7 +9,7 @@ const ITEM_DATA = [
             {
                 id: 1,
                 name: 'Assorted Yangang',
-                imageUrl: 'https://i.ibb.co/FmBVXJ5/20170503-161158.jpg',
+                imageUrl: 'https://i.ibb.co/jbLRzGy/20170503-161158.jpg',
                 //imageUrl: "/images/gallery-img/hats/brown-brim.png",
                 price: 25
             },

@@ -10,10 +10,11 @@ import {selectCartHidden} from "../../redux/cart/cart.selectors";
 import {selectCurrentUser} from "../../redux/user/user.selectors";
 
 import './header.styles.scss';
+import {toggleCartHidden} from "../../redux/cart/cart.actions";
 
-const Header = ({currentUser, hidden}) => (
+const Header = ({currentUser, hidden, dispatch}) => (
   <div className='header'>
-      <Link to="/" className='logo-container'>
+      <Link to="/" className='logo-container' onClick={() => hidden? null: dispatch(toggleCartHidden())}>
         <Logo/>
       </Link>
       <div className='options'>

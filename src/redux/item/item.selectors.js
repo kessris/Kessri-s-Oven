@@ -20,6 +20,11 @@ export const selectGalleryCollections = createSelector(
     item => item.galleryCollections
 );
 
+export const selectMonthlySalesCollections = createSelector(
+    [selectItem],
+    item => item.monthlySaleCollections
+);
+
 export const selectCollection = collectionUrlParam =>
     createSelector(
         [selectCollections],

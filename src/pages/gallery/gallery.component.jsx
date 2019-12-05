@@ -1,5 +1,4 @@
 import React from 'react';
-import CollectionItem from "../../components/collection-item/collection-item.component";
 import GalleryItem from "../../components/gallery-item/gallery-item.component";
 import {selectGalleryCollections} from "../../redux/item/item.selectors";
 import {connect} from "react-redux";

@@ -2,6 +2,9 @@ import React from 'react';
 import CollectionItem from "../collection-item/collection-item.component";
 import './collection-preview.styles.scss'
 
+/**
+ * I.E.) TRADITIONAL DESSERTS (4 Boxes)
+ */
 const CollectionPreview = ({ title, items }) => {
     return (
         <div className='collection-preview'>

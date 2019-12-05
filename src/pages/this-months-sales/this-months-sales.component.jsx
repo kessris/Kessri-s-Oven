@@ -1,25 +1,24 @@
 import React from 'react';
-import SHOP_DATA from "./this-months-sales.data";
-import CollectionPreview from "../../components/collection-preview/collection-preview.component";
+import {createStructuredSelector} from "reselect";
+import {selectMonthlySalesCollections} from "../../redux/item/item.selectors";
+import {connect} from "react-redux";
+import CollectionItem from "../../components/collection-item/collection-item.component";
 
-class ThisMonthsSales extends React.Component {
-    constructor(props) {
-        super(props);
+const ThisMonthsSales = ({ collection: {title, items} }) => (
+    <div className='collection-page'>
+        <h2 className='title'>{title}</h2>
+        <div className='items'>
+            {
+                items.map(item => (
+                    <CollectionItem key={item.id} item={item}/>
+                ))
+            }
+        </div>
+    </div>
+);
 
-        this.state = {
-            photos: SHOP_DATA
-        }
-    }
+const mapStateToProps = createStructuredSelector({
+    collection: selectMonthlySalesCollections
+});
 
-    render() {
-        const {photos} = this.state;
-        return (
-            <div className='page'>
-                {photos.map(({id, ...otherCollectionProps}) =>
-                    <CollectionPreview key={id} {...otherCollectionProps} />)}
-            </div>
-        );
-    }
-}
-
-export default ThisMonthsSales;
+export default connect(mapStateToProps)(ThisMonthsSales);
