@@ -1,26 +1,15 @@
 import React from 'react';
-import SHOP_DATA from "./shop.data";
-import CollectionPreview from "../../components/collection-preview/collection-preview.component";
+import CollectionOverview from '../../components/collection-overview/collection-overview.component'
+import CollectionPage from "../collection/collection.component";
+import {Route} from 'react-router-dom';
+
 import './bulk-orders.styles.scss'
 
-class BulkOrders extends React.Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            photos: SHOP_DATA
-        }
-    }
-
-    render() {
-        const {photos} = this.state;
-        return (
-            <div className='page'>
-                {photos.map(({id, ...otherCollectionProps}) =>
-                    <CollectionPreview key={id} {...otherCollectionProps} />)}
-            </div>
-        );
-    }
-}
+const BulkOrders = ({ match }) => (
+    <div className='page'>
+        <Route exact path={`${match.path}`} component={CollectionOverview} />
+        <Route path={`${match.path}/:collectionId`} component={CollectionPage}/>
+    </div>
+);
 
 export default BulkOrders;

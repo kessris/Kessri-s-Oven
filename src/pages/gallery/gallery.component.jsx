@@ -1,25 +1,12 @@
 import React from 'react';
-import SHOP_DATA from "./shop.data";
-import CollectionPreview from "../../components/collection-preview/collection-preview.component";
+import {Route} from 'react-router-dom';
+import CollectionOverview from "../../components/collection-overview/collection-overview.component";
+import CollectionPage from "../collection/collection.component";
 
-class Gallery extends React.Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            photos: SHOP_DATA
-        }
-    }
-
-    render() {
-        const {photos} = this.state;
-        return (
-            <div className='shop-page'>
-                {photos.map(({id, ...otherCollectionProps}) =>
-                     <CollectionPreview key={id} {...otherCollectionProps} />)}
-            </div>
-        );
-    }
-}
+const Gallery = ({ match }) => (
+    <div className='page'>
+        <Route exact path={`${match.path}`}  render={(props) => <CollectionPage {...props} gallery />} />
+    </div>
+);
 
 export default Gallery;

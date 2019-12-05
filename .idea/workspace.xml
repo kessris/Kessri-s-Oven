@@ -2,14 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0efa899-4407-474b-aa56-18686413ec7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/collection-overview/collection-overview.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-overview/collection-overview.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/gallery/gallery.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory.selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/item/gallery.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/item/item.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/item/item.selectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/bulk-orders/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/bulk-orders/shop.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/bulk-orders/bulk-orders.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/bulk-orders/bulk-orders.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/bulk-orders/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/item/item.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/gallery/gallery.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/gallery/gallery.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/this-months-sales" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/gallery" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,12 +58,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kessr\WebstormProjects\website\src\pages\gallery" />
       <recent name="C:\Users\kessr\WebstormProjects\website\src\pages\this-months-sales" />
       <recent name="C:\Users\kessr\WebstormProjects\website\src\assets" />
       <recent name="C:\Users\kessr\WebstormProjects\website\public" />
       <recent name="C:\Users\kessr\WebstormProjects\website\src\pages\bulk-orders" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kessr\WebstormProjects\website\src\redux\items" />
       <recent name="C:\Users\kessr\WebstormProjects\website\src\assets" />
       <recent name="C:\Users\kessr\WebstormProjects\website\src\pages\homepage" />
     </key>
@@ -92,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574522717497</updated>
       <workItem from="1574522719522" duration="11146000" />
-      <workItem from="1574695577408" duration="73221000" />
+      <workItem from="1574695577408" duration="93510000" />
     </task>
     <servers />
   </component>
