@@ -5,8 +5,7 @@ const COLLECTION_ID_MAP = {
     macarons: 2,
     cookies: 3,
     cakes: 4,
-    etc: 5,
-    gallery: 6
+    etc: 5
 };
 
 const selectItem = state => state.item;
@@ -14,6 +13,11 @@ const selectItem = state => state.item;
 export const selectCollections = createSelector(
     [selectItem],
     item => item.collections
+);
+
+export const selectGalleryCollections = createSelector(
+    [selectItem],
+    item => item.galleryCollections
 );
 
 export const selectCollection = collectionUrlParam =>

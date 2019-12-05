@@ -1,12 +1,26 @@
 import React from 'react';
-import {Route} from 'react-router-dom';
-import CollectionOverview from "../../components/collection-overview/collection-overview.component";
-import CollectionPage from "../collection/collection.component";
+import CollectionItem from "../../components/collection-item/collection-item.component";
+import GalleryItem from "../../components/gallery-item/gallery-item.component";
+import {selectGalleryCollections} from "../../redux/item/item.selectors";
+import {connect} from "react-redux";
+import {createStructuredSelector} from "reselect";
+import './gallery.styles.scss'
 
-const Gallery = ({ match }) => (
-    <div className='page'>
-        <Route exact path={`${match.path}`}  render={(props) => <CollectionPage {...props} gallery />} />
+const Gallery = ({ collection: {title, items} }) => (
+    <div className='collection-page'>
+        <h2 className='title'>{title}</h2>
+        <div className='items'>
+            {
+                items.map(item => (
+                    <GalleryItem key={item.id} item={item}/>
+                ))
+            }
+        </div>
     </div>
 );
 
-export default Gallery;
+const mapStateToProps = createStructuredSelector({
+    collection: selectGalleryCollections
+});
+
+export default connect(mapStateToProps)(Gallery);

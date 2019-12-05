@@ -1,4 +1,4 @@
-/* Used as starting data for ShopPage */
+/* Used as starting data for Bulk-Orders Page */
 
 const ITEM_DATA = [
     {
