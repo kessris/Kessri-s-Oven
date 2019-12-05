@@ -6,16 +6,16 @@ const MONTHLY_SALE_DATA = {
     routeName: 'this-months-sales',
     items: [
         {
-            id: 1,
+            id: 1111,
             name: 'Chocolate Almond Biscottis',
-            imageUrl: 'https://i.ibb.co/2F25qsv/b.jpg',
-            price: 25
+            imageUrl: 'https://i.ibb.co/vczx3d7/sale.jpg',
+            price: 11
         },
         {
-            id: 3,
+            id: 2222,
             name: 'Pound Cake',
-            imageUrl: 'https://i.ibb.co/bBvHKh4/121.jpg',
-            price: 25
+            imageUrl: 'https://i.ibb.co/gPXtjzR/121.jpg',
+            price: 11
         }
     ]
 };

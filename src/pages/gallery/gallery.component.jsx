@@ -6,7 +6,7 @@ import {createStructuredSelector} from "reselect";
 import './gallery.styles.scss'
 
 const Gallery = ({ collection: {title, items} }) => (
-    <div className='collection-page'>
+    <div className='gallery-page'>
         <h2 className='title'>{title}</h2>
         <div className='items'>
             {

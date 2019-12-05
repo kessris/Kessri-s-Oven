@@ -10,7 +10,7 @@ const INITIAL_STATE = {
         },
         {
             title: 'Bulk Orders',
-            subtitle: 'Inquire',
+            subtitle: 'Order Now',
             imageUrl: 'https://i.ibb.co/rZGQQ1m/20170129-145240-1.jpg',
             id: 2,
             size: 'large',

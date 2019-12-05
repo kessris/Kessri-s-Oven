@@ -40,7 +40,6 @@ class GalleryItem extends React.Component {
                 }
 
                 <div className='collection-footer'>
-                    <span className='name'>{name}</span>
                 </div>
 
                 <CustomButton inverted onClick={() => this.openModal()}>View Image</CustomButton>

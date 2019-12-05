@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0efa899-4407-474b-aa56-18686413ec7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/item/this-months-sales.data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-item/cart-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-item/cart-item.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gallery-item/gallery-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gallery-item/gallery-item.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gallery-item/gallery-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gallery-item/gallery-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/collection/collection.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/collection/collection.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/gallery/gallery.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/gallery/gallery.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/gallery/gallery.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/gallery/gallery.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/how-to-order/how-to-order.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/how-to-order/how-to-order.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/how-to-order/how-to-order.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/how-to-order/how-to-order.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/this-months-sales/this-months-sales.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/this-months-sales/this-months-sales.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/item/item.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/item/item.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/item/item.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/item/item.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/item/item.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/item/item.selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/this-months-sales/this-months-sales.data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/this-months-sales/this-months-sales.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/this-months-sales/this-months-sales.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/directory/directory.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/directory/directory.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/item/this-months-sales.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/item/this-months-sales.data.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574522717497</updated>
       <workItem from="1574522719522" duration="11146000" />
-      <workItem from="1574695577408" duration="103454000" />
+      <workItem from="1574695577408" duration="109542000" />
     </task>
     <servers />
   </component>
