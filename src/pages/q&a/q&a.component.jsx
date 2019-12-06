@@ -46,6 +46,7 @@ const QnA = () => (
                         to keep states globally and to allow access from all components using Higher Order Components.
                         For backend, I used Google Firebase which handled databases, google sign-ins, etc.
                         I also downloaded npm packages for some pages (i.e., this Q&A Accordion and Gallery's Image pop-ups)
+                        and used Stripe API for payments.
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>

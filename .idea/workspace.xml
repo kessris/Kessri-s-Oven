@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0efa899-4407-474b-aa56-18686413ec7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/contact/contact.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/contact/contact.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/stripe-button/stripe-button.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/how-to-order/how-to-order.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/how-to-order/how-to-order.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/how-to-order/how-to-order.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/how-to-order/how-to-order.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/q&amp;a/q&amp;a.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/q&amp;a/q&amp;a.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/q&amp;a/q&amp;a.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/q&amp;a/q&amp;a.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/gallery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,9 +42,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kessr\WebstormProjects\website\src\assets" />
       <recent name="C:\Users\kessr\WebstormProjects\website\src\pages\gallery" />
       <recent name="C:\Users\kessr\WebstormProjects\website\src\pages\this-months-sales" />
-      <recent name="C:\Users\kessr\WebstormProjects\website\src\assets" />
       <recent name="C:\Users\kessr\WebstormProjects\website\public" />
       <recent name="C:\Users\kessr\WebstormProjects\website\src\pages\bulk-orders" />
     </key>
@@ -96,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574522717497</updated>
       <workItem from="1574522719522" duration="11146000" />
-      <workItem from="1574695577408" duration="118545000" />
+      <workItem from="1574695577408" duration="123040000" />
     </task>
     <servers />
   </component>
