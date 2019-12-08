@@ -13,14 +13,35 @@
     margin: 30px auto;
     display: inline-block;
 
+    @media screen and (max-width: 1050px) {
+      display: block;
+      width: 100%;
+      margin: 50px auto;
+    }
+
     img {
       width: 40%;
       border: 2px solid black;
       float: left;
+
+      @media screen and (max-width: 1050px) {
+        width: 35%;
+        float: initial;
+      }
+      @media screen and (max-width: 800px) {
+        width: 60%;
+        float: initial;
+      }
     }
 
     .info {
       transform: translateY(7vw);
+      @media screen and (max-width: 1050px) {
+        transform: initial;
+        h1 {
+          font-size: 20px;
+        }
+      }
     }
   }
 
