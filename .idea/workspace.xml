@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0efa899-4407-474b-aa56-18686413ec7a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory-preview/directory-preview.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory-preview/directory-preview.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/bulk-orders/bulk-orders.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/bulk-orders/bulk-orders.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/collection/collection.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/collection/collection.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/gallery/gallery.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/gallery/gallery.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/sign-in-sign-up/sign-in-sign-up.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sign-in-sign-up/sign-in-sign-up.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/this-months-sales/this-months-sales.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/this-months-sales/this-months-sales.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
