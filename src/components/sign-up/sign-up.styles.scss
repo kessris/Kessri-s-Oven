@@ -3,6 +3,13 @@
   flex-direction: column;
   width: 400px;
 
+  @media screen and (max-width: 1050px) {
+    width: 350px;
+  }
+  @media screen and (max-width: 900px) {
+    width: 100%;
+  }
+
   .title {
     margin: 10px 0;
   }
