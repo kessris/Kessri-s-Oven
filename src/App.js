@@ -1,6 +1,7 @@
 import React from 'react';
 import {Switch, Route, Redirect} from 'react-router-dom';
-import './App.css';
+//import './App.css';
+import {GlobalStyle} from "./global.styles";
 import HomePage from "./pages/homepage/homepage.component";
 import Gallery from "./pages/gallery/gallery.component";
 import Header from "./components/header/header.component";
@@ -55,6 +56,7 @@ class App extends React.Component {
         // Switch: the moment it finds a Route with an exact path, will not render any other Routes
         return (
             <div>
+                <GlobalStyle/>
                 <Header/>
                 <Switch>
                     <Route exact path='/' component={HomePage}/>

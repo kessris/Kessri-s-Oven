@@ -4,6 +4,10 @@
   padding: 20px 80px;
   text-align: center;
 
+  @media screen and (max-width: 850px) {
+    padding: 15px;
+  }
+
   .title {
     font-size: 38px;
     margin: 0 auto 30px;

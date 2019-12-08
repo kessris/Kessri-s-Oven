@@ -1,4 +1,15 @@
 .page {
   align-items: center;
   padding: 20px 80px;
+
+  @media screen and (max-width: 1200px) {
+    padding: 10px;
+    margin-top: 40px;
+  }
+  @media screen and (max-width: 1050px) {
+    margin-top: initial;
+  }
+  @media screen and (max-width: 500px) {
+    padding: 30px;
+  }
 }

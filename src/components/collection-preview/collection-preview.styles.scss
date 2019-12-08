@@ -8,6 +8,10 @@
     margin-bottom: 25px;
     cursor: pointer;
     width: fit-content;
+
+    @media screen and (max-width: 500px) {
+      text-align: center;
+    }
   }
 
   .preview {
@@ -15,5 +19,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 30px;
+
+    @media screen and (max-width: 1000px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media screen and (max-width: 700px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media screen and (max-width: 500px) {
+      display: block;
+    }
+
   }
 }

@@ -12,6 +12,10 @@
     background-position: center;
     margin-bottom: 5px;
     border: 1px solid black;
+    @media screen and (max-width: 500px) {
+      width: 75%;
+      height: 75%;
+    }
   }
 
   .custom-button {
@@ -20,6 +24,11 @@
     position: absolute;
     top: 255px;
     display: none;
+
+    @media screen and (max-width: 500px) {
+      width: 50%;
+      top: 110px;
+    }
   }
 
   &:hover {
@@ -39,6 +48,10 @@
     display: flex;
     justify-content: space-between;
     font-size: 18px;
+
+    @media screen and (max-width: 500px) {
+      width: 75%;
+    }
 
     .name {
       width: 90%;
