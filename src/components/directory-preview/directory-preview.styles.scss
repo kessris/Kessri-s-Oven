@@ -29,6 +29,9 @@
 
   &.large {
     width: 39%;
+    @media screen and (max-width: 900px) {
+      width: 100%;
+    }
   }
 
   &:first-child {
@@ -57,6 +60,10 @@
     background-color: white;
     opacity: 0.7;
     position: absolute;
+
+    @media screen and (max-width: 900px) {
+      padding: 10px;
+    }
 
     .title {
       font-weight: bold;

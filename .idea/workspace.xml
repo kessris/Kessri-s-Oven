@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0efa899-4407-474b-aa56-18686413ec7a" name="Default Changelist" comment="" />
+    <list default="true" id="e0efa899-4407-474b-aa56-18686413ec7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/global.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory-preview/directory-preview.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory-preview/directory-preview.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
