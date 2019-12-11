@@ -34,7 +34,9 @@ const CheckoutPage = ({cartItems, total}) => (
         </div>
         <h2 style={{color: "red"}}>** Test payment using the TEST CREDIT CARD below **</h2>
         <h3 style={{color: "red"}}>Card #: 4242 4242 4242 4242  |  Exp: 01/20  |  CW: 123</h3>
-        <StripeCheckoutButton price={total} />
+        <div className='checkout-button'>
+            <StripeCheckoutButton price={total} />
+        </div>
     </div>
 );
 
