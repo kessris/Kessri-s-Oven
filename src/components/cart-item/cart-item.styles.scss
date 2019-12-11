@@ -18,6 +18,10 @@
     justify-content: center;
     padding: 10px 20px;
 
+    @media screen and (max-width: 1000px) {
+      align-items: initial;
+    }
+
     .name {
       font-size: 16px;
     }
