@@ -4,5 +4,5 @@
 Mock e-commerce website with pictures of baked goods I made so far (deplopyed on Heroku server):
 <br />
 https://kessri-s-oven.herokuapp.com/
-<br /><br />
-![Website Screenshot](https://i.ibb.co/r5Zw6kX/Untitled.png)
+<br />
+<img src="https://i.ibb.co/r5Zw6kX/Untitled.png" title="screenshot of the website">
